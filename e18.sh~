@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ $# -eq 1 ]; then
+	encontrado=0
+	while [ $encontrado -eq 0 ]
+	do
+		sleep 10
+		usuarios_logeados=`who | cut -d " " -f1`
+		for usuario in $usuarios_logeados 
+		do
+			if [ $usuario = $1 ]; then
+				encontrado=`expr $encontrado + 1`
+				echo "El usuario $1 se ha logeado"				
+			fi
+		done
+		if [ $encontrado -eq 0 ]
+		then
+			echo "$1 aun no se ha logeado"
+		fi
+	done
+fi

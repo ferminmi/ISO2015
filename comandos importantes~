@@ -1,0 +1,9 @@
+parametros del test:
+	-f FILE : FILE existe y es un archivo
+	-d FILE : FILE existe y es un directorio
+
+cut -d (delimitador) -fx,y,z,...n corta por los delimitadores y se queda con las columnas
+
+mkdir: crea un directorio
+
+mv nombre1 nombre2 : cambia el nombre de archivo de nombre1 a nombre2

@@ -1,0 +1,33 @@
+parametros del test:
+	-f FILE : FILE existe y es un archivo
+	-d FILE : FILE existe y es un directorio
+
+cut -d (delimitador) -fx,y,z,...n corta por los delimitadores y se queda con las columnas
+
+mkdir: crea un directorio
+
+wc -l : cuenta las lineas
+
+find: permite buscar archivos dentro del directorio actual si solo se ingresa el nombre del archivo o de la siguiente manera
+
+	find "lugar" -name "nombre": donde lugar es el directorio donde se buscara (o . si a partir del actual) y "nombre" es el nombre del archivo que va a buscar. si se usa el * en nombre significa que puede ser cualquier cosa.
+	tambien se le puede agregar el tipo.
+	--> find "lugar" -type "tipo" -name "nombre" donde type es f para un archivo o d para un directorio.
+
+mv archivo1 nombre1 : cambia el nombre de de arhivo1 a nombre1
+rm archivo: borra un archivo
+
+
+pwd: para ver el directorio actual
+
+ps: ver procesos en ejecucion
+pstree: ver todos los procesos
+
+tr -d LETRA : corta LETRA en una cadena de texto
+
+arreglos:
+
+	acceder a todos los valores: ${arreglo_b[@]}
+	tamaño del arreglo: ${#arreglo_b[@]}
+	borrar elemento: unset arreglo_b[2]
+

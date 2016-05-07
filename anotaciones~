@@ -1,0 +1,12 @@
+13) test -f
+test -d
+
+if , verificar si existe y crearlo
+
+14) usar el ls sobre una variable e iterarla con un for
+
+16) abrir y procesar el archivo passwd para obtener los usuarios.
+utilizar el find por extension y por nombre de usuario, y por pipe mas el wc contar la cantidad de archivos de cada uno.
+
+18) usar cut y sleep
+

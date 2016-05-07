@@ -1,0 +1,12 @@
+13) test -f
+test -d
+
+if , verificar si existe y crearlo
+
+14) usar el ls sobre una variable e iterarla con un for
+
+16) te vas e iteras sobre el home o lo haces desde el passwd con todos los putisimos usuarios del sistema sean humanos o no.
+utilizar el find por extension y por nombre de usuario (o a partir del home), y por pipe mas el wc contar la cantidad de archivos de cada uno.
+
+18) usar cut y sleep
+

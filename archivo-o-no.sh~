@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ $1 regularfile ] 
+then
+	echo "El archivo es un documento"
+else
+	echo "el archivo es un directorio"
+fi

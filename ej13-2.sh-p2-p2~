@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Escriba el nombre del archivo"
+read nombre_arch
+
+if [ find /home -type f -name "asd" ]
+then
+echo "asd"
